@@ -1,0 +1,18 @@
+
+header{
+    background-color: dimgray;
+}
+.flex-container {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+.flex-container > div {
+    margin: 2px;
+    padding: 6px;
+    font-size: 30px;
+  }
+
+.flex-container > .bloggräknare{
+    text-align: center;
+}
