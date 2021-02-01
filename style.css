@@ -1,4 +1,3 @@
-
 header{
     background-color: dimgray;
 }
@@ -13,6 +12,10 @@ header{
     font-size: 30px;
   }
 
-.flex-container > .bloggräknare{
+.flex-container > .blogcount{
+    text-align: center;
+}
+
+textarea{
     text-align: center;
 }
