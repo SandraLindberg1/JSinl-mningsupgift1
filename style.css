@@ -1,5 +1,12 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
 header{
-    background-color: dimgray;
+    background-color:plum;
+    box-shadow: 5px 5px 5px 5px darkorchid;
+    color: darkorchid;
 }
 .flex-container {
     display: flex;
@@ -9,13 +16,32 @@ header{
 .flex-container > div {
     margin: 2px;
     padding: 6px;
-    font-size: 30px;
+    font-size: 35px;
+    
   }
 
 .flex-container > .blogcount{
     text-align: center;
 }
 
-textarea{
+section{
+    box-shadow: 5px 5px 5px 5px darkorchid;
+    width: 400px;
+    height: 150px;
     text-align: center;
+    background-color: plum;
+    color: darkorchid;
+    margin: 30px auto;
+    padding: 10px;
+}
+
+footer{
+    background-color: plum;
+    color: darkorchid;
+    text-align: center;
+    font-style: italic;
+    font-size: x-large;
+    margin-top: 30px;
+    padding: 10px;
+    box-shadow: 5px 5px 5px 5px darkorchid;
 }
