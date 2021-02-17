@@ -7,6 +7,12 @@
 
  "use strict";
 
+ /* KOMPLETERING!
+
+  Eventet onload som jag använder här är för att köra igång mina functioner. Och då väntar onload med att köra tills allt på sidan är klart innan den kör,
+  till skillnad mot DOMContentLoaded som kör när DOM är färdigladdat. 
+
+*/
 window.onload = function() {
 
     document.getElementById("numbers").oninput = function (){
@@ -15,7 +21,17 @@ window.onload = function() {
       let add = parseFloat(this.value);
         
       for (let i = 0; i < add; i++) {
-       console.count();
+
+        /*KOMPLETERING!
+
+        Kommenterade ut console.count då den 3-dubblade typ inläggen inne i konsolen men inte på själva sidan. Jag tyckte det var sjukt störigt så testade att kommenterade
+        ut den. inte för att det gav en error men det blev en lite med defult 1 defult 2 defult 3 när jag ville visa ett inlägg på sidan. Samma när man minskar så lägger
+        den på defult antal inne i konsolen. */
+
+        //console.count();
+
+
+       // definera variabler
        let main = document.querySelector("main");
        let section = document.createElement("section");
        let title = document.createElement("h1");
