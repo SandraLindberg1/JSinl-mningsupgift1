@@ -7,13 +7,10 @@
 
  "use strict";
 
-<<<<<<< Updated upstream
-=======
  /* 
   Eventet onload som jag använder här är för att köra igång mina functioner. Och då väntar onload med att köra tills allt på sidan är klart innan den kör,
   till skillnad mot DOMContentLoaded som kör när DOM är färdigladdat. 
 */
->>>>>>> Stashed changes
 window.onload = function() {
 
     document.getElementById("numbers").oninput = function (){
@@ -22,9 +19,6 @@ window.onload = function() {
       let add = parseFloat(this.value);
         
       for (let i = 0; i < add; i++) {
-<<<<<<< Updated upstream
-       console.count();
-=======
 
         /*
         Kommenterade ut console.count då den 3-dubblade typ inläggen inne i konsolen men inte på själva sidan. Jag tyckte det var sjukt störigt så testade att kommenterade
@@ -35,7 +29,6 @@ window.onload = function() {
 
 
        // definera variabler
->>>>>>> Stashed changes
        let main = document.querySelector("main");
        let section = document.createElement("section");
        let title = document.createElement("h1");
